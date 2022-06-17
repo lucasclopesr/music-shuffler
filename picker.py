@@ -1,6 +1,6 @@
 import random
 
-class SongPicker():
+class SongPicker:
 
     def __init__(self, catalog):
         self.catalog = catalog

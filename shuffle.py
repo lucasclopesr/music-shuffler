@@ -13,13 +13,5 @@ def main():
     song = picker.pick_song()
     print(song)
 
-    genre,songs_list = picker.pick_genre()
-    print(genre, songs_list)
-    song = picker.pick_song_given_genre(genre)
-    print(song)
-
-    genre, song = picker.pick_song_and_genre()
-    print(genre, song)
-
 if __name__ == '__main__':
     main()
